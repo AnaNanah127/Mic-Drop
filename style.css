@@ -55,3 +55,12 @@ body{
     height: auto;
     border-radius: 8px;
 }
+
+@Media (max-width: 800px){
+    .secao{
+        flex-direction: column;
+    }
+    .texto, .imagem{
+        padding: 10px;
+    }
+}
